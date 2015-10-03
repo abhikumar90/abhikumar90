@@ -149,7 +149,8 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  position: relative; }
+  position: relative;
+  background-color: teal; }
 
 .site-title {
   font-size: 26px;
@@ -159,6 +160,9 @@ pre {
   float: left; }
   .site-title, .site-title:visited {
     color: #424242; }
+
+a {
+  color: white; }
 
 .site-nav {
   float: right;
@@ -207,7 +211,9 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  padding: 30px 0;
+  margin-top: 144px;
+  background-color: teal; }
 
 .footer-heading {
   font-size: 18px;
@@ -308,6 +314,35 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+
+.button {
+  background: rebeccapurple;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: inline;
+  display: inline-block;
+  margin-left: 328px;
+  margin-top: 152px; }
+
+.button a {
+  color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  font-family: arial;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px;
+  margin: 1px 3px;
+  font-weight: normal;
+  text-decoration: none;
+  /*height:17px;*/ }
+
+.button a:hover {
+  text-decoration: none !important;
+  background: #94b5bc; }
+
+span {
+  color: white; }
 
 /**
  * Syntax highlighting styles
